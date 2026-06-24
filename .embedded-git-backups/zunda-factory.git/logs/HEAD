@@ -1,7 +1,0 @@
-0000000000000000000000000000000000000000 5ebbd0e08dc34836e3e7ee408c4b173c63ab585b jag jag <jag@jagnoMac-mini.local> 1781271324 +0900	commit (initial): Prototype: zunda swarm factory (production line x lane auto-battle)
-5ebbd0e08dc34836e3e7ee408c4b173c63ab585b 9298eb518ca0859cbd5463461d62df301b79ebf7 jag jag <jag@jagnoMac-mini.local> 1781272148 +0900	commit: v0.2.0: trait breeding system (8 traits, unlock chains, 2 strain lines, zunda ball)
-9298eb518ca0859cbd5463461d62df301b79ebf7 3f568cb8b5873ba283ff0a0a889786325c472f78 jag jag <jag@jagnoMac-mini.local> 1781272572 +0900	commit: v0.3.0: stage collapse at 300 units + PoC pacing compression
-3f568cb8b5873ba283ff0a0a889786325c472f78 0e3db1a62c0bcc60660f05dc5408a4f0edfd90fa jag jag <jag@jagnoMac-mini.local> 1781280235 +0900	commit: Fix field click: background ColorRects were swallowing mouse events (v0.3.1)
-0e3db1a62c0bcc60660f05dc5408a4f0edfd90fa 0b2acd674a81ae3624c1e2f1c92fc1a21c737de3 jag jag <jag@jagnoMac-mini.local> 1781280479 +0900	commit: Show measured economy flow: farm/loot income vs actual spend (v0.3.2)
-0b2acd674a81ae3624c1e2f1c92fc1a21c737de3 1d2f3ae950d881fb6e122a05e5540f6d3f49d0ac jag jag <jag@jagnoMac-mini.local> 1781284987 +0900	commit: Add starvation recovery: line pause toggle + auto recall to fields (v0.3.3)
-1d2f3ae950d881fb6e122a05e5540f6d3f49d0ac 335dae4c21d76efdb1c6bc5880890434dcf80c42 jag jag <jag@jagnoMac-mini.local> 1781285207 +0900	commit: v0.4.0: enemy RPS types, wave forecast, rubber-band difficulty

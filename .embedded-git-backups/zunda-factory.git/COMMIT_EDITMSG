@@ -1,9 +1,0 @@
-v0.4.0: enemy RPS types, wave forecast, rubber-band difficulty
-
-- 4 enemy types + boss: kata (armored, weak to bombs), haya (fast,
-  double attack, melts elite units), shime (bomb-immune), boss every 5
-- Damage matrix: armor reduces normal hits, bomb_mult per type
-- Next-wave forecast in UI so players can re-spec strains in advance
-- Wave size scales with swarm size; depth (collapses) raises enemy mult
-
-Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>

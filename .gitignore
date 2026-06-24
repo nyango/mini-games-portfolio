@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local assistant/editor state
+.claude/
+
+# Godot local/editor cache
+.godot/
+.import/
+*.tmp
+*.translation
+
+# Logs
+*.log
+
+# Node/dependency caches, if added later
+node_modules/
+
+# Local backup of previously embedded repositories
+.embedded-git-backups/
+
+# Local prototypes not published to GitHub Pages
+kongari-bakery/
+zunda-factory/
+chain-blaster/
