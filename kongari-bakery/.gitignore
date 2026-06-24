@@ -1,0 +1,12 @@
+# Godot
+.godot/
+*.translation
+
+# Builds
+build/
+
+# macOS
+.DS_Store
+
+# 立ち絵素材の元データ(PSD等)はリポジトリ外管理
+art_src/

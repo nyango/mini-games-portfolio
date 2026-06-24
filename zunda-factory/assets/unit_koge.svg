@@ -1,0 +1,15 @@
+<svg width="64" height="56" viewBox="0 0 64 56" xmlns="http://www.w3.org/2000/svg">
+  <!-- こげパン兵(敵) -->
+  <path d="M 8 34 Q 8 12 32 12 Q 56 12 56 34 L 56 42 Q 56 47 51 47 L 13 47 Q 8 47 8 42 Z" fill="#4A3526"/>
+  <path d="M 12 31 Q 14 17 32 16 Q 50 17 52 31 Q 48 23 32 22 Q 16 23 12 31 Z" fill="#5C432F"/>
+  <!-- 怒り目 -->
+  <path d="M 18 26 L 27 30" stroke="#FFE9C9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 46 26 L 37 30" stroke="#FFE9C9" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="24" cy="33" r="2.4" fill="#FFE9C9"/>
+  <circle cx="40" cy="33" r="2.4" fill="#FFE9C9"/>
+  <!-- 口 -->
+  <path d="M 27 40 Q 32 37 37 40" stroke="#FFE9C9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- 足 -->
+  <ellipse cx="24" cy="51" rx="5" ry="4" fill="#3A2A1E"/>
+  <ellipse cx="40" cy="51" rx="5" ry="4" fill="#3A2A1E"/>
+</svg>

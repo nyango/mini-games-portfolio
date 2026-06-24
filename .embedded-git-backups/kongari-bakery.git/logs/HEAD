@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 c3d090435380350ccd3997f0484cadd9ba624c45 jag jag <jag@jagnoMac-mini.local> 1781242241 +0900	commit (initial): Initial project: bakery clicker prototype
+c3d090435380350ccd3997f0484cadd9ba624c45 60d459ef9638cf9c25ca32a826599f92244775ea jag jag <jag@jagnoMac-mini.local> 1781243457 +0900	commit: Add Japanese font (M PLUS Rounded 1c), README, verified web build
+60d459ef9638cf9c25ca32a826599f92244775ea 046aa3e273bd6fe40856ed9dc64dcc480a2d882b jag jag <jag@jagnoMac-mini.local> 1781245309 +0900	commit: Add juice: SFX/BGM, golden bread, crits, burnt bread, milestones, particles
+046aa3e273bd6fe40856ed9dc64dcc480a2d882b 9dd16f2bdfe37c62cf05a103cafe4e8f85483ff4 jag jag <jag@jagnoMac-mini.local> 1781246012 +0900	commit: Add depth: orders/fame, click upgrades, 6 endings, trophies, prestige loop
+9dd16f2bdfe37c62cf05a103cafe4e8f85483ff4 44b5e46a4a754549a717ee4080f121be94e0b219 jag jag <jag@jagnoMac-mini.local> 1781246326 +0900	commit: Fix freeze when clicking golden bread (infinite wiggle tween on freed node)
+44b5e46a4a754549a717ee4080f121be94e0b219 0e7eefd8a05f0d6083517e6984411390d9315a2c jag jag <jag@jagnoMac-mini.local> 1781247008 +0900	commit: Add logging system; re-apply golden bread freeze fix lost to git checkout
+0e7eefd8a05f0d6083517e6984411390d9315a2c 07f6cd79f1af8e40897f0a8126b71dae175195c1 jag jag <jag@jagnoMac-mini.local> 1781247537 +0900	commit: Fix ending panel position (use CenterContainer), bump to v0.3.1
+07f6cd79f1af8e40897f0a8126b71dae175195c1 a6481eea99b5ac062345e00c8de06a3796bc52c9 jag jag <jag@jagnoMac-mini.local> 1781247987 +0900	commit: Add business day system: day cycle, weather, closing report, policy choice (v0.4.0)
+a6481eea99b5ac062345e00c8de06a3796bc52c9 bbacee53729b9e59fbbbf2a25f867aed7bff44e8 jag jag <jag@jagnoMac-mini.local> 1781249800 +0900	commit: Add characters: Zundamon clerk + Metan customer with speech bubbles (v0.5.0)
+bbacee53729b9e59fbbbf2a25f867aed7bff44e8 717a6fd965d14869b5f49b8224c781a50dee102e jag jag <jag@jagnoMac-mini.local> 1781249892 +0900	commit: Disable BGM for now, SFX only (v0.5.1)
+717a6fd965d14869b5f49b8224c781a50dee102e 9759d9e135a3d7105bbcbfd6d760820f05570b65 jag jag <jag@jagnoMac-mini.local> 1781250945 +0900	commit: Replace placeholder art with Sakamoto Ahiru tachie kits (v0.6.0)
+9759d9e135a3d7105bbcbfd6d760820f05570b65 3bd05bc0d13afcf19fa76dcad184198929dc05a0 jag jag <jag@jagnoMac-mini.local> 1781253031 +0900	commit: Rework core into draft & placement roguelite (v0.7.0)

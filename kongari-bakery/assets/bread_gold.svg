@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- glow -->
+  <ellipse cx="128" cy="140" rx="120" ry="95" fill="#FFE680" opacity="0.45"/>
+  <!-- loaf body -->
+  <path d="M 30 150 Q 30 70 128 70 Q 226 70 226 150 L 226 185 Q 226 200 211 200 L 45 200 Q 30 200 30 185 Z" fill="#F0B428"/>
+  <!-- crust highlight -->
+  <path d="M 42 140 Q 46 84 128 82 Q 210 84 214 140 Q 214 110 190 96 Q 160 80 128 80 Q 96 80 66 96 Q 42 110 42 140 Z" fill="#FFD75E"/>
+  <!-- scoring cuts -->
+  <path d="M 78 92 Q 92 112 86 136" stroke="#FFF3B8" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M 122 86 Q 136 108 130 134" stroke="#FFF3B8" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M 166 92 Q 180 112 174 138" stroke="#FFF3B8" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <!-- base shadow -->
+  <path d="M 30 178 L 226 178 L 226 185 Q 226 200 211 200 L 45 200 Q 30 200 30 185 Z" fill="#D89B1E"/>
+  <!-- sparkles -->
+  <path d="M 60 56 L 65 68 L 77 73 L 65 78 L 60 90 L 55 78 L 43 73 L 55 68 Z" fill="#FFFCE0"/>
+  <path d="M 196 48 L 200 58 L 210 62 L 200 66 L 196 76 L 192 66 L 182 62 L 192 58 Z" fill="#FFFCE0"/>
+  <path d="M 226 130 L 229 137 L 236 140 L 229 143 L 226 150 L 223 143 L 216 140 L 223 137 Z" fill="#FFFCE0"/>
+</svg>

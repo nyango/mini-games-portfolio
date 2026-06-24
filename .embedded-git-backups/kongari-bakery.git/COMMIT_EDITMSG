@@ -1,0 +1,8 @@
+Rework core into draft & placement roguelite (v0.7.0)
+
+14-day runs with escalating rent, morning card draft (14 cards / 7 tags),
+4x3 grid placement with adjacency synergies, bankruptcy ending (7 total),
+run-end judgement by build composition. Clicker/golden/orders/characters
+retained. Old saves migrate meta only.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
