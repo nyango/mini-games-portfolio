@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>NEON COMBO BURST</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="shell">
+    <canvas id="game" width="960" height="540" aria-label="NEON COMBO BURST game canvas"></canvas>
+    <section class="hud" aria-hidden="true">
+      <div>
+        <span class="label">SCORE</span>
+        <strong id="score">0</strong>
+      </div>
+      <div>
+        <span class="label">COMBO</span>
+        <strong id="combo">x1</strong>
+      </div>
+      <div>
+        <span class="label">BEST</span>
+        <strong id="best">0</strong>
+      </div>
+      <div class="meterWrap">
+        <span class="label">BURST</span>
+        <div class="meter"><i id="energy"></i></div>
+      </div>
+    </section>
+    <div id="modeBadge" class="modeBadge" aria-hidden="true">楽々連鎖モード</div>
+    <section id="overlay" class="overlay">
+      <div class="card">
+        <p class="eyebrow">one-screen arcade</p>
+        <h1>NEON<br>COMBO BURST</h1>
+        <p id="message">マウス/指で移動、クリック・タップ・Spaceでバースト。<br>赤い敵をバースト中に砕いてコンボを繋げ！</p>
+        <div class="modes" role="group" aria-label="mode select">
+          <button type="button" class="mode" data-mode="normal">NORMAL</button>
+          <button type="button" class="mode is-active" data-mode="easy">楽々連鎖モード</button>
+        </div>
+        <p id="modeDesc" class="modeDesc">楽々連鎖モード：当たり判定が広く、コンボが切れにくい。爽快に繋げて練習＆ハイスコア狙い。</p>
+        <button id="startBtn">START</button>
+        <button type="button" id="guideToggle" class="ghost">攻略法を見る</button>
+        <div id="guide" class="guide" hidden>
+          <h2>攻略法</h2>
+          <ul>
+            <li><b>移動とバーストを分ける</b>：普段はカーソルで安全な場所へ。敵を狩る瞬間だけバースト。</li>
+            <li><b>敵の少し手前で撃つ</b>：バースト中(0.18秒)だけ当たり判定が出る。突っ込む寸前に発射。</li>
+            <li><b>1回のバーストで複数体</b>：直線上に敵を並べてから撃つと一気に巻き込めて高コンボ。</li>
+            <li><b>早撃ちボーナス</b>：バースト開始直後に当てるほど加点が増える。近距離で速攻が正解。</li>
+            <li><b>ゲージ管理</b>：1回で約26%消費。青コアは+33%回復＋撃破でも少し回復。コア優先で回り続ける。</li>
+            <li><b>コンボ維持</b>：撃破から約2秒で次を倒すと継続。倒す対象を切らさない動線を作る。</li>
+            <li><b>画面端は危険</b>：壁際は逃げ場が消える。中央寄りで円を描くように立ち回る。</li>
+            <li><b>ヒットストップを活用</b>：撃破直後の一瞬スローで次の狙いを定められる。落ち着いて連射。</li>
+          </ul>
+        </div>
+        <p class="tips">青いコアを拾うとバースト回復。バースト外で敵に触れると終了。</p>
+      </div>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
